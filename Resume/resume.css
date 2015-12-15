@@ -1,0 +1,70 @@
+.navbar-default {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #1abc9c;
+    font-family:'Raleway', 'helvetica';
+  }
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+body {
+      font-family:'Raleway', 'helvetica';
+      font-size:20px;
+      line-height: 1.8;
+      color: #f5f6f7;
+}
+.icons{
+        transition-duration: 0.8s;
+    transition-property: transform;
+    overflow:hidden;
+}
+.bg-1 { 
+      background-color: #FFFFFF; /* Green */
+      color: #474e5d;
+       padding-top: 70px;
+      padding-bottom: 70px;
+      font-family:'Raleway', 'helvetica';
+}
+.bg-2 { 
+      background-color: #B6B6B6; /* Dark Blue */
+      color: #34495e;
+      font-family:'Raleway', 'helvetica';
+    
+}
+.col-md-6 { 
+      background-color: #B6B6B6; /* Dark Blue */
+      color: #34495e;
+      font-family:'Raleway', 'helvetica';
+    
+}
+.bg-3 { 
+      background-color: #B6B6B6; /* White */
+      color: #555555;
+      font-family:'Raleway', 'helvetica';
+ }
+ .bg-4 { 
+      background-color: #B6B6B6; /* White */
+      color: #555555;
+      font-family:'Raleway', 'helvetica';
+ }
+.Title {
+    font-family:'Pacifico','helvetica' ;
+    font-size:40px;
+}
+.gif{
+    border-radius:10%;
+    width:400px;
+}
+.title2 {
+    font-family:'Raleway','helvetica' ;
+    font-size:40px;
+}
+.bartext {
+    font-family:'Raleway','helvetica' ;
+    font-size:20px;
+}

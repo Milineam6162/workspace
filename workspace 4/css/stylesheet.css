@@ -1,0 +1,41 @@
+#box {
+    width:300px;
+    height:300px;
+    border:none;
+    margin:auto;
+}
+.but {
+    
+    width:96px;
+    height:96px;
+    border:2px dashed #6495ed;
+    font-size:60px;
+    font-family:helvetica;
+    margin:auto;
+}
+#restartGame {
+    
+    width:50px;
+    height:50px;
+    font-family:helvetica;
+    border:none;
+    font-size:40px;
+    background-color:#6495ed;
+    color:white;
+    margin: 0 auto 0 auto;
+}
+#words {
+    color:#6495ed;
+    font-family:helvetica;
+    font-size:35px;
+    
+    margin:auto;
+    
+}
+#wbox {
+    width:300px;
+    height:50px;
+    background-color:#c1ff55;
+    border:2px dashed white;
+    margin:auto;
+}

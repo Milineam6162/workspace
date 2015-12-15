@@ -1,0 +1,118 @@
+
+/* Basic styles to make visble */
+* {
+    background-color: #eae6e3;
+}
+.box {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    font-family:helvetica;
+    padding: 10px;
+}
+/* flexbox lines */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    min-height: 15vh;
+    align-items:flex-start;
+    justify-content:center;
+}
+.wrapper2 {
+    display:flex;
+    flex-direction:column;
+    height:40vh;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+/* divs shadow/shape */
+#body{
+    background-color:grey;
+    width:95%;
+    height:100vh;
+}
+.box {
+    flex:1
+}
+.box1 { 
+    background: #5BC0EB;
+    box-shadow: 4px 0px 0 rgba(0,0,0,0.1);
+}
+.box2 { 
+    background: #5BC0EB;
+    box-shadow: 4px 0px 0 rgba(0,0,0,0.1);
+}
+.box3 { 
+    background: #9BC53D;
+   box-shadow: 2px 0px 0 rgba(0,0,0,0.1);
+    flex: 2;
+}
+.box4 { background: #5BC0EB;
+    box-shadow: 2px 0px 0 rgba(0,0,0,0.1);
+}
+.box5 { background: #5BC0EB;
+    box-shadow: 2px 0px 0 rgba(0,0,0,0.1);
+}
+/* Links background */
+#b1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family:helvetica;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5BC0EB;
+}
+#b2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family:helvetica;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5BC0EB;
+}
+#b3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family:helvetica;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #9BC53D;
+}
+#b4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family:helvetica;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5BC0EB;
+}
+#b5 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family:helvetica;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5BC0EB;
+}
+
+/* Top links bars */
+
+a:visited {
+    color: white;
+}
+div:hover {
+    font-size: 1.3em;
+}
+/* Initial */    

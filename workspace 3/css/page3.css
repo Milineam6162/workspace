@@ -1,0 +1,59 @@
+.header {
+    font-family:helvetica;
+    color:white;
+    text-align:center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding:1px;
+    font-size:20px;
+    margin:10px;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    border-radius:13px;
+    width:100%;
+}
+a:link {
+    text-decoration: none;
+    
+}
+a {
+    color:#bdc3c7;;
+}
+a:hover {
+    text-decoration:underline;
+}
+.he1 {
+    background-color: #3498db;
+}
+img {
+    width:100%;
+    
+    
+}
+
+
+.c2 {
+    padding:0px;
+    margin:10px;
+    width:50%;
+    background-color:#bdc3c7;
+    border:2px solid white;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+}
+.bd1 {
+    padding:0px;
+    
+}
+.bodycon {
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+body {
+    background-color:#2ecc71;
+}
+.c1 {
+    display:flex;
+   
+}
+#homepic {
+    width:12%;
+}

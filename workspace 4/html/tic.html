@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tick Tack Toe Game</title>
+        <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" />
+        
+    </head>
+    <body>
+        <input type="button" id="restartGame" value="R" onClick="history.go(0)" >
+        <div id="box">
+            <div>
+            <input type="button" class="but" id="btn1" onclick="clickBtn('btn1')" value=" ">
+            <input type="button" class="but" id="btn2" onclick="clickBtn('btn2')" value=" "/>
+            <input type="button" class="but" id="btn3" onclick="clickBtn('btn3')" value=" "/>
+            </div>
+            <div>
+            <input type="button" class="but" id="btn4" onclick="clickBtn('btn4')" value=" "/>
+            <input type="button" class="but" id="btn5" onclick="clickBtn('btn5')" value=" "/>
+            <input type="button" class="but" id="btn6" onclick="clickBtn('btn6')" value=" "/>
+            </div>
+            <div>
+            <input type="button" class="but" id="btn7" onclick="clickBtn('btn7')" value=" "/>
+            <input type="button" class="but" id="btn8" onclick="clickBtn('btn8')" value=" "/>
+            <input type="button" class="but" id="btn9" onclick="clickBtn('btn9')" value=" "/>
+            </div>
+        </div>
+        <div class="hide" id="wbox">
+            <h1 id="words"></h1>
+        </div>
+        
+        <script src="../java/one.js"></script>
+    </body>
+</html>

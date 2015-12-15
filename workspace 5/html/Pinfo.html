@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Info</title>
+    </head>
+    <body>
+        <form id="form"mn >
+            <fieldset>
+                <legend>Personal Info</legend>
+                    First Name: 
+                    <input id="fname" type="text" name="first name"/>
+                    <br>
+                    <br>
+                    Last Name: <input  id="lname" type="text" name="last name"/>
+                    <br>
+                    <br>
+                    Gender:
+                    <br>
+                    <input id="male" type="radio" name="Gender" value="Male"/> Male
+                    <br>
+                    <input id="female" type="radio" name="Gender" value="Female"/> Female
+                    
+                    <br>
+                    <input id="married" type="checkbox" name="Married"/> Married
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" value="Make a Sentence"
+                        onclick= result()
+                    />
+                
+                
+            </fieldset>
+            
+        </form>
+        <h1 id="sentence"></h1>
+        <!--<script type="text/javascript" src="../javascript/info.js"></script>-->
+        <script>
+            
+function result(){
+  var text = "Hello" + " ";
+  var x = document.getElementById("fname").value;
+  var b = document.getElementById("lname").value;
+  var m = document.getElementById("male").checked;
+  var f = document.getElementById("female").checked;
+  var l = document.getElementById("married").checked;
+    if (m === true){
+        text += " "+"Mr."+" ";
+    }
+    else{
+        text += ""+"Ms." +" ";
+    }
+    text += x +" "+ b;
+    if (l === true){
+        text+= "Mrs.";
+    }
+  document.getElementById("sentence").innerHTML = text;
+}
+        </script>
+    </body>
+</html>

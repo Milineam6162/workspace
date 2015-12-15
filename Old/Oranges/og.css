@@ -1,0 +1,42 @@
+table {
+    background-color:;
+    margin:3vw 5vw;
+    border-color:#f84525;
+}
+ 
+ p {
+     color:grey;
+ }
+ a {
+     text-decoration:none;
+     color: grey;
+     font-family:helvetica;
+     font-size:19px;
+     text-align:justify;
+ }
+ .head {
+     font-family:helvetica;
+     font-size:23px;
+ }
+ span {
+     color:#f84525;
+ }
+ li {
+     margin-bottom:16px;
+     list-style-type:circle;
+ }
+ img {
+     width:510px;
+    height: auto;
+    margin:3vw 5vw;
+
+ }
+ body {
+     background: url("http://www.mrwallpaper.com/wallpapers/orange-tree-art.jpg")
+ }
+ th {
+     color:grey;
+ }
+ td {
+     color:grey;
+ }

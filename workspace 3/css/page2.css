@@ -1,0 +1,45 @@
+.Name {
+    font-family:helvetica;
+    font-size:25px;
+    text-align:center;
+    color:white;
+}
+#one {
+    background-color:#fc913a;
+}
+#two {
+    background-color:#ff4e50;
+}
+#three {
+    background-color:#9ed670;
+}
+#title {
+    background-color:#ffc425;
+}
+#head {
+    font-family:helvetica;
+    font-size:29px;
+    text-align:center;
+    color:white;
+}
+p {
+    font-family:helvetica;
+    font-size:15px;
+    text-align:center;
+    color:grey;
+}
+#hicon {
+    border:2px solid white;
+    border-radius:1%;
+    background-image:url(../images/background.jpg);
+}
+a {
+    text-decoration:none;
+    display:block;
+}
+#home {
+    font-size:20px;
+}
+#homeid {
+    height:52px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper</title>
+        <link rel="stylesheet" href="../stylesheets/stylesheet.css" type="text/css" />
+    </head>
+    <body>
+        <h1 id="result"></h1>
+        <h1 id = "winner"></h1>
+        <div>
+            <img class="hide" id="pr" src="../img/Paper.jpg"></img>
+            <img class="hide" id="pp" src="../img/Rock.jpg"></img>
+            <img class="hide" id="ps" src="../img/Scissors.jpg"></img>
+        </div>
+        <div>
+            <img class="hide" id="cr" src="../img/Paper.jpg"></img>
+            <img class="hide" id="cp" src="../img/Rock.jpg"></img>
+            <img class="hide" id="cs" src="../img/Scissors.jpg"></img>
+        </div>
+        
+        <button onClick="playRockPaperScissors(0)">Rock</button>
+        <button onClick="playRockPaperScissors(1)">Paper</button>
+        <button onClick="playRockPaperScissors(2)">Scissors</button>
+        
+        <script>
+            function playRockPaperScissors(player) {
+                
+                var computer= Math.floor(Math.random()*3);
+                var winner = document.getElementById("winner");
+                var result = document.getElementById("result");
+                var playerResult = " player: ";
+                var computerResult = " computer: ";
+                var pr = document.getElementById("pr");
+                var pp = document.getElementById("pp");
+                var ps = document.getElementById("ps");
+                var cr = document.getElementById("cr");
+                var cp = document.getElementById("cp");
+                var cs = document.getElementById("cs");
+                pr.classList.remove("show");
+                pp.classList.remove("show");
+                ps.classList.remove("show");
+                cr.classList.remove("show");
+                cp.classList.remove("show");
+                cs.classList.remove("show");
+                // Rock = 0 
+                // Paper = 1
+                // Sicissors = 2
+                if (player === 0){
+                    pr.classList.add("show")
+                    winner.innerHTML= "You Win";
+                    playerResult += "Rock"
+                    if (computer === 2){
+                        cs.classList.add("show")
+                        winner.innerHTML= "You Win";
+                        computerResult += "Sicissors"
+                    }
+                    else if (computer === 1){
+                       cp.classList.add("show")
+                        winner.innerHTML= "You Lose";
+                        computerResult += "Paper"
+                    }
+                    else {
+                        winner.innerHTML= "Draw";
+                    
+                    }
+                }
+                    else if (player === 1){
+                    pp.classList.add("show")
+                    winner.innerHTML= "You Win";
+                    playerResult += "Paper"
+                        if (computer === 0){
+                        cr.classList.add("show")
+                        winner.innerHTML= "You Lose";
+                        computerResult += "Rock"
+                    }
+                        else if (computer === 2){
+                        cs.classList.add("show")
+                        winner.innerHTML= "You Win";
+                        computerResult += "Sicissors"
+                    }
+                    else {
+                        winner.innerHTML= "Draw";
+                    
+                    }
+                    }
+                    else{
+                    ps.classList.add("show")
+                    winner.innerHTML= "You Win";
+                    playerResult += "Sicissors"
+                        if (computer === 0){
+                       cr.classList.add("show")
+                        winner.innerHTML= "You Lose";
+                        computerResult += "Rock"
+                    }
+                        else if (computer === 1){
+                        cp.classList.add("show")
+                        winner.innerHTML= "You Lose";
+                        computerResult += "Paper"
+                    }
+                    else {
+                        winner.innerHTML= "Draw";
+                    
+                    }
+                    }
+                result.innerHTML=playerResult +=  computerResult;
+            }
+        </script>
+    </body>
+</html>
